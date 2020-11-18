@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="some_error">Ocurrió un error y ya lo hemos notificado a Soporte Técnico</string>
+    <string name="empty_images_list">No tiene imagenes</string>
+    <string name="confirm_delete_bcard">¿Está a punto de remover esta tarjeta de la lista?</string>
+    <string name="file_browser">Explorador de archivos</string>
+    <string name="grant">Otorgar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="location_permission_description_message">El permiso para obtener su ubicación no
+    se ha concedido. \n¿Desearía otorgarlo en este momento?</string>
+    <string name="location_permission_go_settings_message">El permiso para obtener su ubicación fue
+        denegado y para deshacer esta desición es necesario que vaya a la configuración de la
+        aplicación y active este permiso manualmente.\n¿Desea abrir la pantalla de  configuración?.</string>
+    <string name="write_es_permission_description_message">El permiso para guardar archivos en su
+        teléfono no se ha concedido. \n¿Desearía otorgarlo en este momento?</string>
+    <string name="write_es_permission_go_settings_message">El permiso para guardar archivos fue
+        denegado y para deshacer esta desición es necesario que vaya a la configuración de la
+        aplicación y active este permiso manualmente.\n
+        ¿Desea abrir la pantalla de configuración?.</string>
+    <string name="message_rationale_camera_permission_get_photo">Por favor de permiso para acceder a
+        su cámara y poder tomar una foto. ¿Está seguro de denegar este permiso?</string>
+    <string name="camera_permission_not_allowed">No podemos a la cámara.
+        Por favor vaya a la configuración de la aplicación y active este permiso.\n
+        ¿Desea abrir la pantalla de configuración?.</string>
+    <string name="read_es_permission_description_message">El permiso para leer archivos en su
+        teléfono no se ha concedido. \n¿Desearía otorgarlo en este momento?</string>
+    <string name="read_es_permission_go_settings_message">El permiso para leer archivos fue
+        denegado y para deshacer esta desición es necesario que vaya a la configuración de la
+        aplicación y active este permiso manualmente.\n
+        ¿Desea abrir la pantalla de configuración?.</string>
+    <string name="permission_dienied">El permiso fue denegado</string>
+</resources>

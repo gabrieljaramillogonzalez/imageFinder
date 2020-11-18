@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomAlertDialog" parent="Base.Theme.AppCompat.Light.Dialog">
+        <item name="buttonBarPositiveButtonStyle">@style/CustomButtonDialog</item>
+        <item name="buttonBarNegativeButtonStyle">@style/CustomButtonDialog</item>
+    </style>
+    <style name="CustomButtonDialog" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>

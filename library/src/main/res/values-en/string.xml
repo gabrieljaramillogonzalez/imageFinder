@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="some_error">An error occurred and we have already notified Technical Support</string>
+    <string name="empty_images_list">You have no images</string>
+    <string name="confirm_delete_bcard">You are about to remove this card from the list</string>
+    <string name="file_browser">File browser</string>
+    <string name="grant">Grant</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="location_permission_description_message">Location permission has not been granted. \nWould you like to grant it at this time??</string>
+    <string name="location_permission_go_settings_message">
+        Location permission was denied and to undo this you need to go to the application settings
+        and activate this permission manually.\n Do you want to open the configuration screen?
+    </string>
+    <string name="write_es_permission_description_message">
+        The permission to save files on your phone has not been granted.\nWould you like to grant
+        it right now?
+    </string>
+    <string name="write_es_permission_go_settings_message">
+        The permission to save files was denied and to undo this decision it is necessary to go to
+        the application settings and activate this permission manually.\nDo you want to open the
+        configuration screen?
+    </string>
+    <string name="message_rationale_camera_permission_get_photo">
+        Please give permission to access your camera and take a photo. Are you sure to deny this
+        permission?</string>
+    <string name="camera_permission_not_allowed">
+        We can not to the camera. Please go to the application settings and activate this
+        permission.\nDo you want to open the configuration screen?</string>
+    <string name="read_es_permission_description_message">
+        Permission to read files on your phone has not been granted\nWould you like to grant it
+        right now?</string>
+    <string name="read_es_permission_go_settings_message">
+        The permission to read files was denied and to undo this decision it is necessary to go to
+        the application settings and activate this permission manually.\nDo you want to open the
+        configuration screen?</string>
+    <string name="permission_dienied">Permission was denied</string>
+</resources>

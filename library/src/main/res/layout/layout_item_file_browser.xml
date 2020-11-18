@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+        <RelativeLayout
+            android:id="@+id/ItemFileBrowser_rlPdf"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="?selectableItemBackground"
+            android:padding="4dp">
+
+            <ImageView
+                android:id="@+id/ItemFileBrowser_ivPdf"
+                android:layout_width="40dp"
+                android:layout_height="68dp"
+                android:layout_alignParentStart="true"
+                app:srcCompat="@drawable/ic_pdf" />
+
+            <TextView
+                android:id="@+id/ItemFileBrowser_tvNamePdf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="8dp"
+                android:layout_toEndOf="@+id/ItemFileBrowser_ivPdf"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
+                tools:text="Nombre del pdf" />
+
+            <TextView
+                android:id="@+id/ItemFileBrowser_tvDatePdf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ItemFileBrowser_tvNamePdf"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:layout_toEndOf="@+id/ItemFileBrowser_ivPdf"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+                tools:text="Directorio del pdf" />
+
+            <TextView
+                android:id="@+id/ItemFileBrowser_tvSizePdf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ItemFileBrowser_tvDatePdf"
+                android:layout_marginStart="8dp"
+                android:layout_toEndOf="@+id/ItemFileBrowser_ivPdf"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+                tools:text="Peso del pdf" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
